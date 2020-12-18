@@ -1,0 +1,48 @@
+{
+  "RegistrarGratis": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//android.view.View[@content-desc='100 GB SIN COSTO CON TELCEL O TELMEX']/android.widget.TextView"
+  },
+  "Logo_CD_Landing": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//android.view.View[@content-desc='logo / claro drive black']/android.widget.Image"
+  },
+  "link_Ayuda": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//android.view.View[@content-desc='AYUDA ']/android.widget.TextView"
+  },
+  "ayuda_Categorias": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View[1]/android.view.View/android.widget.Button"
+  },
+  "btn_ayuda_Volver": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]"
+  },
+  "combox_Paises": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View"
+  },
+  "link_Negocio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//android.view.View[@content-desc='IR A CLARO DRIVE NEGOCIO']/android.widget.TextView"
+  },
+
+  "link_CDPersonal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//android.view.View[@content-desc='IR A CLARO DRIVE PERSONAL']/android.widget.TextView"
+  },
+
+  "txt_PantallaPrincipal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[1]"
+  },
+
+  "txt_Ayuda": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[2]/android.view.View[1]"
+  }
+
+
+
+}
