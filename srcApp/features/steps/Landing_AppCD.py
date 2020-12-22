@@ -28,8 +28,15 @@ class Landing_App(Landing):
     @then("I click on the button Registrate Gratis")
     def btn_RegisterGratris(self):
 
-        #assert Landing.get_text(self, "txt_PantallaPrincipal") == "Tus archivos donde quieras, cuando quieras."
-        #time.sleep(1)
+        self.TEXTO_PRINCIPAL = self.driver.find_elements(By.XPATH,
+                                                     "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[1]")
+        self.count = 0
+        for self.txtPrin in self.TEXTO_PRINCIPAL:
+            RESULTADO_TEXTO = ['Tus archivos donde quieras, cuando quieras.']
+            assert RESULTADO_TEXTO[self.count] == self.txtPrin.text, "LOS TEXTOS NO COINCIDEN"
+            print(RESULTADO_TEXTO)
+
+            time.sleep(3)
 
         Landing.get_elements(self, "RegistrarGratis").click()
         time.sleep(3)
@@ -46,7 +53,6 @@ class Landing_App(Landing):
         self.driver.find_element_by_xpath("//android.view.View[@content-desc='REGÍSTRATE']").click()
         time.sleep(3)
 
-
     @then("I click on the button INICIA SESION")
     def btn_Login(self):
         self.driver.find_element(By.XPATH,
@@ -62,6 +68,16 @@ class Landing_App(Landing):
     def step_impl(self):
         #assert Landing.get_text(self, "txt_Ayuda") == "Centro de ayuda"
         #time.sleep(1)
+        self.TEXTO_AYUDA = self.driver.find_elements(By.XPATH,
+                                                       "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[2]/android.view.View[1]")
+        self.count = 0
+        for self.txtAyuda in self.TEXTO_AYUDA:
+            RESULTADO_TEXTO = ['Centro de ayuda']
+            assert RESULTADO_TEXTO[self.count] == self.txtAyuda.text, "LOS texto no coincide"
+            print(RESULTADO_TEXTO)
+
+            time.sleep(3)
+            
         Landing.get_elements(self, "ayuda_Categorias").click()
         time.sleep(3)
 

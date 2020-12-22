@@ -1,0 +1,130 @@
+{
+  "opcion _register_Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[5]"
+  },
+
+  "input_CorreoElectronico": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View/android.widget.EditText"
+  },
+
+  "input_passw": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[2]/android.widget.EditText"
+  },
+
+  "opcion_Mostrar/Ocultar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]"
+  },
+
+  "btn_REGISTRARME": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.widget.Button"
+
+  },
+
+  "opcion_plan_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.widget.ListView/android.view.View[3]"
+
+  },
+
+  "opcion_plan_200GB": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View[1]"
+
+  },
+
+  "btn_ACEPTAR_plan": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View[4]/android.widget.Button"
+
+  },
+
+  "input_NombreTitutar_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[1]/android.widget.EditText"
+
+  },
+
+  "input_NumTarjeta_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText"
+  },
+
+  "input_MMM_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[3]/android.widget.EditText"
+  },
+
+   "input_AA_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[4]/android.widget.EditText"
+  },
+
+  "input_CVV_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[5]/android.widget.EditText"
+  },
+
+   "btn_ACEPTAR_TDC": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[2]/android.view.View/android.view.View/android.view.View[7]/android.widget.Button"
+  },
+
+  "btn_IR_A_MI_CLARO_DRIVE": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[1]/android.view.View/android.view.View[4]/android.widget.Button"
+  },
+
+  "popup_btn_RECHAZAR": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Button[1]"
+  },
+
+
+  "wizard_btn_COMENZAR": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button[2]"
+  },
+
+  "wizard_btn_SIGUIENTE": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button[2]"
+  },
+
+  "wizard_btn_SALTAR": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button[1]"
+  },
+
+  "wizard_btn_FINALIZAR": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button"
+  },
+
+  "wizard_txt_btn_MAS": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView"
+  },
+
+  "wizard_txt_btn_CREAR": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView"
+  },
+
+  "wizard_txt_btn_FAVORITOS": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView"
+  },
+
+  "wizard_txt_btn_GALERIA": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.TextView"
+  }
+
+
+
+}
