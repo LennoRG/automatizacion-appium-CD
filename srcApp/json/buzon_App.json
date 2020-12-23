@@ -1,0 +1,27 @@
+{
+  "btn_Email_Login": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[5]"
+  },
+
+  "ipunt_Correo_User": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View/android.widget.EditText"
+  },
+
+  "ipunt_Passw_User": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[2]/android.widget.EditText"
+  },
+
+  "opcion_Mostrar/Ocultar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View"
+  },
+
+  "btn_Inicio_Sesion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[3]/android.view.View[3]/android.view.View[6]/android.view.View[1]/android.view.View/android.widget.Button"
+  }
+
+}
